@@ -25,3 +25,9 @@ Before you get started, make sure you have the following:
    ```bash
    git clone https://github.com/your-username/time-management.git
    cd time-management
+
+2.  Install the required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+
