@@ -18,7 +18,7 @@ SCOPES = ['https://www.googleapis.com/auth/calendar']
 
 
 # ADD YOUR CALENDAR ID HERE
-YOUR_CALENDAR_ID = '964883128166-oc60fsk815900obmfoi55m48i5vvbsvk.apps.googleusercontent.com'
+YOUR_CALENDAR_ID = '' # find your credential
 YOUR_TIMEZONE = 'Europe/Madrid' # find yours here: https://www.timezoneconverter.com/cgi-bin/zonehelp.tzc?cc=US&ccdesc=United%20States
 
 
