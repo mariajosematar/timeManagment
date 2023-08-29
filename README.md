@@ -42,21 +42,21 @@ source venv/bin/activate      # On Windows, use: venv\Scripts\activate.
 ## Usage
 ### Add Calendar Event
 To add an event to your Google Calendar, run the following command:
-
+```bash
 python timeManager.py add <duration_in_hours> <event_description>
-
+```
 - Replace <duration_in_hours> with the duration of the event in hours and <event_description> with a brief description of the event.
   
 ## Commit Coding Hours
 To commit your coding hours for the day to the SQLite database, run:
-
+```bash
 python timeManager.py commit
-
+```
 ## Get Total and Average Hours
 To get the total and average coding hours for the last <number_of_days>, run:
-
+```bash
 python timeManager.py getHours <number_of_days>
-
+```
 Replace <number_of_days> with the desired number of days.
 
 ## Notes
@@ -66,11 +66,3 @@ Replace <number_of_days> with the desired number of days.
 
 ## Disclaimer
 - This code is provided as-is and may require adjustments to fit your specific environment. Use it responsibly and ensure that your Google Calendar API credentials are kept secure.
-
-
-
-
-
-
-
-
