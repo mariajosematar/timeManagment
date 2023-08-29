@@ -27,7 +27,45 @@ Before you get started, make sure you have the following:
    cd time-management
 
 2.  Install the required Python packages:
-
-   ```bash
    pip install -r requirements.txt
+3. Create a virtual environment (recommended):
+python -m venv venv
+source venv/bin/activate      # On Windows, use: venv\Scripts\activate
+4. Initialize the SQLite database:
+python createTable.py
+
+## Usage
+### Add Calendar Event
+To add an event to your Google Calendar, run the following command:
+
+python timeManager.py add <duration_in_hours> <event_description>
+
+- Replace <duration_in_hours> with the duration of the event in hours and <event_description> with a brief description of the event.
+  
+## Commit Coding Hours
+To commit your coding hours for the day to the SQLite database, run:
+
+python timeManager.py commit
+
+## Get Total and Average Hours
+To get the total and average coding hours for the last <number_of_days>, run:
+
+python timeManager.py getHours <number_of_days>
+
+Replace <number_of_days> with the desired number of days.
+
+## Notes
+- Make sure your credentials.json and token.json files are in the same directory as the script files.
+- The provided token in the comments is a placeholder. You should replace it with the actual token obtained after authentication.
+- Adjust the time zone (YOUR_TIMEZONE) and other settings as needed.
+
+## Disclaimer
+- This code is provided as-is and may require adjustments to fit your specific environment. Use it responsibly and ensure that your Google Calendar API credentials are kept secure.
+
+
+
+
+
+
+
 
