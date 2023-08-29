@@ -27,12 +27,17 @@ Before you get started, make sure you have the following:
    cd time-management
 
 2.  Install the required Python packages:
-   pip install -r requirements.txt
+  ```bash
+ pip install -r requirements.txt
+```
 3. Create a virtual environment (recommended):
-python -m venv venv
-source venv/bin/activate      # On Windows, use: venv\Scripts\activate
+ ```bash
+ python -m venv venv
+source venv/bin/activate      # On Windows, use: venv\Scripts\activate.
+```
 4. Initialize the SQLite database:
-python createTable.py
+   ```bash
+   python createTable.py
 
 ## Usage
 ### Add Calendar Event
